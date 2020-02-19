@@ -18,9 +18,9 @@ from chatterbot import ChatBot
 class Baidu(object):
     def __init__(self):
         # 你的百度appID AK SK
-        self.APP_ID = '18520466'
-        self.API_KEY = 'b4sHKyIrpnNhygMT08rBwT7V'
-        self.SECRET_KEY = 'YRyiZm1FmiSsIy68yyyrYUbg0t8M61qI'
+        self.APP_ID = ''
+        self.API_KEY = ''
+        self.SECRET_KEY = ''
         self.client = AipSpeech(self.APP_ID, self.API_KEY, self.SECRET_KEY)
 
     def SaveMp3(self, content):
