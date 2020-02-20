@@ -14,9 +14,9 @@ from chatterbot import ChatBot
 class RobotConversation(object):
     def __init__(self):
         self.headers = {'content-type': 'application/x-www-form-urlencoded'}
-        self.app_key = 'jGFHPsUSl5QU4iW3mxZTlsUX'       # 百度AI应用的app_key
-        self.secret_key = 'UucV6X5Sm6i6pgeddaahHnHq4HTMKbPe'    # 百度AI应用的secret_key
-        self.service_id = 'S27184'  # 闲聊+天气机器人ID
+        self.app_key = '【百度AI应用的app_key】'       # 百度AI应用的app_key
+        self.secret_key = '【百度AI应用的secret_key】'    # 百度AI应用的secret_key
+        self.service_id = '【百度机器人ID】'  # 百度机器人ID
         self.access_token = self.getBaiDuAK()  # 获取百度应用的access_token
         self.url = 'https://aip.baidubce.com/rpc/2.0/unit/service/chat?access_token=' + self.access_token  # 生成URL
 
